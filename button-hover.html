@@ -1,11 +1,20 @@
 <style>
   /*
-    button: CSS selector, which elements to target
-    background-color: CSS Property, what are we changing
-    red: CSS Value, what are we chaning property to
+      button: CSS selector, which elements to target
+      background-color: CSS Property, what are we changing
+      red: CSS Value, what are we chaning property to
+  
+      margin: space outside element
+      border: 
+      padding: space inside element
 
-    margin: space around element
-    */
+      :hover, pseudo class
+      :active, click and hold change style
+      opacity: how see through element is 0-1
+
+      transition: takes 2 args, 1st is what you want to transition, time
+      box-shadow: (horizontal position, -'ve left, +'ve right) (vertical position, -'ve up, +'ve down) (blur) (color)
+      */
   .subscribe-button {
     background-color: rgb(200, 0, 0);
     color: white;
@@ -15,6 +24,15 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.5;
   }
 
   .join-button {
@@ -27,6 +45,16 @@
     border-style: solid;
     border-width: 1px;
     cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
   }
 
   .tweet-button {
@@ -40,6 +68,11 @@
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   }
 
   .request-btn {
@@ -49,6 +82,11 @@
     width: 118px;
     cursor: pointer;
     border: none;
+    transition: opacity 0.15s;
+  }
+
+  .request-btn:hover {
+    opacity: 0.8;
   }
 
   .add-to-cart-btn {
@@ -60,6 +98,11 @@
     font-size: 12p3x;
     font-style: bold;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .add-to-cart-btn:hover {
+    background-color: rgb(223, 190, 28);
   }
 
   .sign-up-btn {
@@ -72,6 +115,11 @@
     border-radius: 7px;
     border: none;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .sign-up-btn:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   }
 
   .get-started-btn {
@@ -83,6 +131,11 @@
     height: 36px;
     width: 105px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .get-started-btn:hover {
+    background-color: rgb(102, 65, 158);
   }
 
   .download-btn {
@@ -99,6 +152,12 @@
     font-size: 15px;
     border-style: solid;
     margin-left: 6px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .download-btn:hover {
+    background-color: grey;
+    color: white;
   }
 
   .apply-btn {
@@ -111,6 +170,11 @@
     font-style: bolder;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .apply-btn:hover {
+    background-color: rgb(9, 69, 128);
   }
 
   .save-btn {
@@ -125,6 +189,12 @@
     color: rgb(10, 102, 194);
     margin-left: 5px;
     cursor: pointer;
+    transition: background-color 0.15s, border-width 0.15s;
+  }
+
+  .save-btn:hover {
+    background-color: rgb(226, 240, 254);
+    border-width: 2px;
   }
 
   .money-p {
@@ -141,6 +211,11 @@
   .back-a {
     color: rgb(0, 113, 133);
     font-size: 16px;
+    transition: color 0.15s;
+  }
+
+  .back-a:hover {
+    color: rgb(135, 81, 10);
   }
 
   .free-p {
@@ -155,6 +230,15 @@
     border-radius: 17px;
     width: 110;
     cursor: pointer;
+    transition: background-color 0.15;
+  }
+
+  .add-cart-btn:hover {
+    background-color: rgb(233, 176, 71);
+  }
+
+  .add-cart-btn:active {
+    opacity: 0.6;
   }
 
   .buy-btn {
@@ -166,6 +250,15 @@
     cursor: pointer;
     width: 110;
     margin-left: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .buy-btn:hover {
+    background-color: red;
+  }
+
+  .buy-btn:active {
+    opacity: 0.6;
   }
 </style>
 
