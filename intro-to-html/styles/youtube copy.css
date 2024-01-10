@@ -1,0 +1,111 @@
+.thumbnail1 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+}
+
+.thumbnail2 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 50px;
+}
+
+.thumbnail3 {
+  height: 100px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.search1 {
+  margin-top: 30px;
+  padding: 8px;
+  width: 150px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+
+.search2 {
+  margin-top: 30px;
+  padding: 8px 12px;
+  width: 300px;
+  font-size: 11px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+}
+
+.search2::placeholder {
+  color: black;
+}
+
+.agree-btn {
+  background-color: rgb(5, 107, 185);
+  color: white;
+  padding: 10px 100px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.agree-btn:hover {
+  background-color: rgb(4, 97, 168);
+}
+
+.email-text {
+  color: rgb(99, 99, 99);
+  font-family: Arial;
+  font-size: 12px;
+  margin: 0px 0px;
+  margin-bottom: 7px;
+  margin-top: 30px;
+}
+
+.email-field {
+  width: 265px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.agreement {
+  font-size: 11px;
+  color: rgb(68, 68, 68);
+  font-family: Arial;
+  word-spacing: -0.5px;
+}
+
+.thumbnail4 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.what-text {
+  width: 200px;
+  margin: 0px;
+  vertical-align: middle;
+  color: rgb(99, 99, 99);
+  font-family: Arial;
+  font-size: 14px;
+  border: none;
+  padding-left: 6px;
+}
+
+.tweet-btn {
+  background-color: rgb(5, 143, 255);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 7px 15px;
+  font-family: Arial;
+  font-weight: bold;
+  vertical-align: middle;
+}

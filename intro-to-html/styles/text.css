@@ -1,0 +1,217 @@
+p {
+  font-family: Roboto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-author {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.video-description {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 22px;
+  margin-bottom: 100px;
+}
+
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(277, 65, 64);
+  text-align: center;
+  padding: 18px 0px;
+}
+
+.shop-link {
+  cursor: pointer;
+}
+
+.shop-link:hover {
+  text-decoration: underline;
+}
+
+.tahoma-font {
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.deal-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.sale-text {
+  font-size: 13px;
+  font-style: italic;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.course {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.beginner {
+  color: grey;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.in-this-course {
+  width: 250px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.get-started {
+  background-color: rgb(14, 150, 14);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.shop {
+  font-weight: bold;
+  font-size: 19px;
+  width: 280px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.help {
+  font-size: 12px;
+  width: 280px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.learn {
+  width: 280px;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(45, 160, 199);
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.new {
+  color: rgb(232, 67, 67);
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.mac {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.supercharged {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 7px;
+}
+
+.money {
+  font-size: 11px;
+  margin-bottom: 9px;
+}
+
+.buy-btn {
+  padding: 7px 12px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(39, 101, 200);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.apple-mac {
+  width: 280px;
+  text-align: center;
+}
+
+.stock1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.usd {
+  font-size: 10px;
+  color: grey;
+}
+
+.stock2 {
+  color: rgb(14, 122, 14);
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.stock3 {
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.red {
+  color: red;
+  margin-left: 5px;
+}
+
+.reply {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reply-grey {
+  color: grey;
+  font-weight: normal;
+}
+
+.reply-description {
+  font-size: 13px;
+  width: 420px;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+
+.here {
+  font-size: 14px;
+}
+
+.another-at {
+  color: rgb(51, 144, 221);
+}
